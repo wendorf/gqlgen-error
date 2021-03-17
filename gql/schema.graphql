@@ -1,0 +1,17 @@
+schema {
+  query: Query
+}
+
+type Query {
+  user(email: String): User
+}
+
+type User {
+  id: String!
+}
+
+union Subject = User
+
+enum Setting {
+  DEFAULT
+}
