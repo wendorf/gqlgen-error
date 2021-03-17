@@ -20,3 +20,5 @@ require (
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
+
+replace github.com/99designs/gqlgen => github.com/wendorf/gqlgen v0.13.1-0.20210317005025-58c3c4ff3aa8
